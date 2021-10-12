@@ -29,7 +29,7 @@ This is particularly useful when you have a modal or overlay that should close i
 Below is an example of using this hook to close a modal when you click away from it.
 
 ```jsx
-import React, { useState, useRef } from 'react
+import React, { useState, useRef } from 'react'
 import useClickAway from 'utils/clickAway'
 
 const style = {
