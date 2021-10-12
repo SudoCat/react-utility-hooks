@@ -21,7 +21,7 @@ This hook provides a consistent API for listening to window resize events, with 
 ### Example
 
 ```jsx
-import React, { useState } from 'react
+import React, { useState } from 'react'
 import { useResize } from 'utils/resize'
 
 function Photo({src}) {
